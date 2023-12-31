@@ -1,0 +1,93 @@
+.lgnbtn {
+    text-align: center; 
+
+
+}
+button{
+    border-radius: 3rem;
+    height: 1.5rem;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(https://wallpaperaccess.com/full/2153948.png);
+    background-size: cover;
+}
+
+.outerbox {
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0,100);
+    background-color: rgba(20, 50, 200, 0.5);
+    
+}
+table {
+    margin-top: 15px; 
+  }
+  
+  td {
+    padding: 8px;
+  }
+  label{
+    font-family: cursive;
+  }
+  caption{
+    font-size: x-large;
+    font-family:fantasy;
+    letter-spacing: .4rem;
+  }
+  a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  .ggl_logo , .fb_logo  , .ln_logo{
+    width:3rem;
+    padding: 0.5rem;
+    
+    
+  }
+  .slmdia {
+    display: flex;
+    justify-content: center;
+
+
+  }
+  .or {
+    text-align: center;
+    background-color:rgba(255, 99, 71, 0.541);
+    border-radius: 5rem;
+    font-size: large;
+    font-family: fantasy;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+  }
+  button { 
+    font-size: 16px; ;
+    text-decoration: none;
+    cursor: pointer;
+    border: 0px solid #090d0f;
+    border-radius: 5px;
+    background-color: #fa992a;
+    transition: transform 0.4s ease-in-out, color 0.4s ease-in-out;
+  }
+  button:hover {
+    transform: scale(1.2);
+    background-color: #ff5e00c5;
+    color: #ffffff;
+    font-weight: bold;
+  }
+.sgn{
+  color: #b1b8cc ;
+  font-style: italic;
+}
+a img {
+  width: 40px;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+a:hover img {
+  transform: scale(1.2);

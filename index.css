@@ -1,0 +1,42 @@
+
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    padding:1rem;
+
+}
+body {
+    background-image: url(https://wallpaperaccess.com/full/2153948.png);
+    background-size: cover;
+
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header {
+    background-color: rgba(20, 50, 200, 0.5);;
+    padding: 20px;
+    text-align: center;
+}
+div{
+    padding: 2rem;
+}
