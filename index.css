@@ -65,3 +65,23 @@ div{
 .lgout{
     width: 2rem;
 }
+.container3{
+    width: 30%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+ .container3 img {
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    transition: ease-out 2s;
+
+}
+.container3 img:hover{
+    width: 100%;
+    border-radius: 40px;
+}
