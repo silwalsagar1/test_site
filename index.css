@@ -6,8 +6,8 @@ body, h1, h2, h3, p, ul {
 nav {
     background-color: #5f3bff;
     display: flex;
+    flex-wrap:inherit;
     justify-content: center;
-    padding:1rem;
 
 }
 body {
@@ -21,8 +21,7 @@ nav ul {
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 20px;
+    display: inlin
 }
 
 nav a {
@@ -55,12 +54,11 @@ div{
     font-size:;
     font-family:'Courier New', Courier, monospace;
 }
-.c2img{
+.c2img img{
     width: 10rem;
     height: 14rem;
     border-radius: 0 30%;
-    box-shadow: 0px 02px 10px 2px blanchedalmond;
-    padding:;
+    box-shadow: 0px 02px 10px 5px blanchedalmond;
 }
 .lgout{
     width: 2rem;
@@ -73,7 +71,8 @@ div{
 }
 .container3{
     width: 30%;
-    height: 500px;
+    height: 350px;
+    margin-left: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
