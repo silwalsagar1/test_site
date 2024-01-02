@@ -6,7 +6,6 @@ body, h1, h2, h3, p, ul {
 nav {
     background: linear-gradient( 100deg,rgb(169, 164, 187),blue,rgb(0, 0, 44));
     display: flex;
-    flex-wrap:inherit;
     justify-content: center;
 
 }
