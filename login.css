@@ -71,12 +71,12 @@ table {
     cursor: pointer;
     border: 0px solid #090d0f;
     border-radius: 5px;
-    background-color: #fa992a;
+    background: linear-gradient( 50deg ,#208d4ec5, rgb(165, 121, 1));
     transition: transform 0.4s ease-in-out, color 0.4s ease-in-out;
   }
   button:hover {
-    transform: scale(1.2);
-    background-color: #ff5e00c5;
+    transform: scale(1.1);
+    background: linear-gradient( 50deg ,#ff5e00c5,red);
     color: #ffffff;
     font-weight: bold;
   }
@@ -91,3 +91,11 @@ a img {
 }
 a:hover img {
   transform: scale(1.2);
+}
+table input{
+  position: relative;
+  background: transparent;
+  border-radius: 30%;
+  padding: 10px 20px;
+   border: 2px solid rgb(0, 0, 75);
+}
