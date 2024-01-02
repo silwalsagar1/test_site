@@ -2,7 +2,7 @@ nav {
     background: linear-gradient( 45deg,rgb(255, 0, 0),blue,rgb(0, 0, 44));
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content:space-evenly;
 
 }
 body {
@@ -26,9 +26,10 @@ header {
     display:flex;
     justify-content: center;
     align-items: center;
+    padding: 2rem;
+    gap: 5%;
 }
 div{
-    padding:1rem;
 }
 .txt1{
     color: aqua;
