@@ -71,7 +71,7 @@ table {
     cursor: pointer;
     border: 0px solid #090d0f;
     border-radius: 5px;
-    background: linear-gradient( 50deg ,#208d4ec5, rgb(165, 121, 1));
+    background: linear-gradient( 50deg ,6#208d4ec5, rgb(165, 121, 1));
     transition: transform 0.4s ease-in-out, color 0.4s ease-in-out;
   }
   button:hover {

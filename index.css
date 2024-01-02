@@ -1,10 +1,5 @@
-
-body, h1, h2, h3, p, ul {
-    margin: 0;
-    padding: 0;
-}
 nav {
-    background: linear-gradient( 100deg,rgb(169, 164, 187),blue,rgb(0, 0, 44));
+    background: linear-gradient( 45deg,rgb(255, 0, 0),blue,rgb(0, 0, 44));
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -15,18 +10,9 @@ body {
     background-size: cover;
 
 }
-
-nav ul {
-    list-style: none;
-}
-
-nav ul li {
-    display: inlin
-}
-
 nav a {
     text-decoration: none;
-    color: white;
+    color: rgb(216, 216, 216);
     font-weight: bold;
 }
 
@@ -36,17 +22,13 @@ header {
     text-align: center;
     border-radius: 0 0 30% 30%;
 }
-div{
-    padding: rem;
-}
-.lgout{
-    width: ;
-}
 .container2{
-    display: flex;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 div{
-    padding: 2rem;
+    padding:1rem;
 }
 .txt1{
     color: aqua;
@@ -72,11 +54,9 @@ div{
 .container3{
     width: 30%;
     height: 350px;
-    margin-left: 30%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 8px;
+    display: flex;
+    margin-left: 5%;
 }
  .container3 img {
     width: 20%;
@@ -85,7 +65,7 @@ div{
     object-fit: cover;    
     border: 2px solid blanchedalmond;
     border-radius: 15px;
-    transition: ease-out 2s;
+    transition:ease-in-out 2s;
 
 }
 .container3 img:hover{
